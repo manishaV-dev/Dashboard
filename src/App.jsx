@@ -1,14 +1,16 @@
-import './App.css'
+import "./App.css";
+import Dashboard from "./components/dashboard/Dashboard";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
-
   return (
-    <>
-      <h1 class="text-3xl font-bold underline bg-red-100">
-    Hello world!
-  </h1>
-    </>
-  )
+    
+      <main className="grid gap-4 p-4 grid-cols-[220px_1fr]">
+        <Sidebar />
+        <Dashboard />
+      </main>
+    
+  );
 }
 
-export default App
+export default App;
