@@ -1,9 +1,11 @@
 import React from "react";
 import {
+  FiBarChart,
   FiDollarSign,
   FiHome,
   FiLink,
   FiPaperclip,
+  FiSettings,
   FiUser,
 } from "react-icons/fi";
 
@@ -12,10 +14,12 @@ const RouteSelect = () => {
     <>
       <div className="space-y-1">
         <Route Icon={FiHome} selected={true} title="Dashboard" />
+        <Route Icon={FiBarChart} selected={false} title="Accounts" />
         <Route Icon={FiUser} selected={false} title="Team" />
         <Route Icon={FiPaperclip} selected={false} title="Invoice" />
         <Route Icon={FiLink} selected={false} title="Integration" />
         <Route Icon={FiDollarSign} selected={false} title="Finance" />
+        <Route Icon={FiSettings} selected={false} title="Settings" />
       </div>
     </>
   );
