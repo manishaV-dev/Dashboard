@@ -1,6 +1,7 @@
 import React from "react";
 import AccountToggle from "./AccountToggle";
 import SearchBar from "./SearchBar";
+import RouteSelect from "./RouteSelect";
 
 const Sidebar = () => {
   return (
@@ -9,6 +10,7 @@ const Sidebar = () => {
         {/* Main sidebar content */}
         <AccountToggle />
         <SearchBar />
+        <RouteSelect />
       </div>
 
       {/* toggle */}

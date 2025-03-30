@@ -6,7 +6,7 @@ const SearchBar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="bg-gray-500 mb-4 relative rounded flex items-center px-2 py-2 text-sm">
+      <div className="bg-gray-900 mb-4 relative rounded flex items-center px-2 py-2 text-sm">
         <FiSearch className="mr-2 text-white" />
         <input
           type="text"
