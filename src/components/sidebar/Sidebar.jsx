@@ -2,6 +2,7 @@ import React from "react";
 import AccountToggle from "./AccountToggle";
 import SearchBar from "./SearchBar";
 import RouteSelect from "./RouteSelect";
+import Plain from "./Plain";
 
 const Sidebar = () => {
   return (
@@ -14,6 +15,7 @@ const Sidebar = () => {
       </div>
 
       {/* toggle */}
+      <Plain />
     </div>
   );
 };
